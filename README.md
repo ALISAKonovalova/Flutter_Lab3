@@ -1,17 +1,45 @@
-# first_flutter_app
+# Flutter Lab3
+Проект создан по лабе №3 по Flutter.
+Демонстрирует основные : виджеты, дерево виджетов, градиентный фон.
 
-A new Flutter project.
+## Автор
 
-## Getting Started
+**Коновалова Алиса**  
+Группа: **ИСП-242**
 
-This project is a starting point for a Flutter application.
+## Стек и версии
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter:** 3.47.6 (stable)
+- **Dart:** 3.13.5
+- **Платформа:** Web (Edge / Chrome)
+- **IDE:** VS Code
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Скриншот приложения
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Приложение](img/step9_Konovalova.png)
+
+## Запуск
+
+1. Клонировать репозиторий: git clone https://github.com/ALISAkonovalova/Flutter_Lab3.git
+
+text
+2. Перейти в папку проекта:
+cd Flutter_Lab3
+
+text
+3. Установить зависимости:
+flutter pub get
+
+text
+4. Запустить:
+flutter run -d edge
+
+## Что изучила
+
+- Структуру Flutter-проекта и назначение папок (`lib/`, `web/`, `test/`)
+- Что такое виджеты и дерево виджетов
+- Основные виджеты: `MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`
+- Как работает `main()` → `runApp()` → `MaterialApp()` → `home:`
+- Hot Reload и Hot Restart, Flutter DevTools
+- Градиентный фон через `BoxDecoration` и `LinearGradient`
+- Стилизацию текста через `TextStyle`
